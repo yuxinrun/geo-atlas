@@ -22,10 +22,21 @@ const marker = '<script type="module"'
 let html = readFileSync(notFound, 'utf8')
 const redirectScript = `<script>
 (function () {
-  if (window.location.pathname.indexOf('/404.html') !== -1) {
-    var rest = window.location.pathname.split('/404.html')[0] + window.location.search + window.location.hash
-    sessionStorage.setItem('geo-atlas-redirect', rest)
-    window.location.replace('/geo-atlas/')
+  var base = '/geo-atlas/'
+  var p = window.location.pathname
+  var suffix = window.location.search + window.location.hash
+  var target = null
+  if (p.indexOf('/404.html') !== -1) {
+    target = p.split('/404.html')[0] + suffix
+  } else if (p.indexOf(base) === 0) {
+    var rest = p.slice(base.length)
+    if (rest && rest !== 'index.html') target = p + suffix
+  } else {
+    target = base + suffix.replace(/^#\\//, '')
+  }
+  if (target) {
+    sessionStorage.setItem('geo-atlas-redirect', target)
+    window.location.replace(base)
   }
 })()
 </script>

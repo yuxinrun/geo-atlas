@@ -5,7 +5,7 @@ import { writeFileSync } from 'node:fs'
 import { articles } from './src/data/articles/index'
 import { continents } from './src/data/continents'
 
-const BASE_URL = 'https://yuxinrun.github.io/geo-atlas/'
+const BASE_URL = 'https://www.yuxin.run/geo-atlas/'
 
 function sitemapPlugin(): Plugin {
   return {

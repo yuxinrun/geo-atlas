@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yuxinrun.github.io/geo-atlas/sitemap.xml
+Sitemap: https://www.yuxin.run/geo-atlas/sitemap.xml

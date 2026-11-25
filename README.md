@@ -197,15 +197,18 @@ node scripts/generate-assets.mjs
 
 3. 进入仓库 **Settings → Pages**，在 **Build and deployment** 中将 **Source** 选择为 **GitHub Actions**。
 4. 推送后 `.github/workflows/deploy.yml` 会自动执行 `npm ci`、`npm run build` 并部署到 Pages。
-5. 部署完成后访问：
+5. 部署完成后，GitHub Pages 地址为 `https://yuxinrun.github.io/geo-atlas/`，对应的自定义域名地址为：
 
    ```text
-   https://yuxinrun.github.io/geo-atlas/
+   https://www.yuxin.run/geo-atlas/
    ```
+
+   网站首页必须使用带 `/geo-atlas/` 的路径；访问 `https://www.yuxin.run/` 会自动跳转到该路径。
 
 ### 部署注意事项
 
-- 当前配置已按 `https://yuxinrun.github.io/geo-atlas/` 设置（`canonical`、仓库链接、`robots.txt`、`sitemap.xml` 基地址均已写入）。若仓库名不是 `geo-atlas`，请同步修改 `vite.config.ts` 中的 `base`、`scripts/postbuild.mjs` 中的重定向路径、`index.html` 的 `canonical`、以及 `public/robots.txt` 与 `vite.config.ts` 中的 `BASE_URL`，否则静态资源路径会出错。
+- 当前配置已按自定义域名 `https://www.yuxin.run/geo-atlas/` 设置（`canonical`、`robots.txt`、`sitemap.xml` 基地址均已写入），仓库链接为 `https://github.com/yuxinrun/geo-atlas`。
+- 站点部署在子路径下，`BrowserRouter` 使用 `import.meta.env.BASE_URL`（生产环境为 `/geo-atlas/`）作为 `basename`。因此站内链接会自动带上 `/geo-atlas/` 前缀，点击“返回首页”会回到 `https://www.yuxin.run/geo-atlas/` 而不是域名根。若修改仓库名，请同步修改 `vite.config.ts` 的 `base`、`scripts/postbuild.mjs` 中的重定向基路径，以及上述 SEO 地址。
 - `404.html` 由 `scripts/postbuild.mjs` 从 `index.html` 生成，内含 `sessionStorage` 重定向脚本，用于解决刷新子路由时的 404 问题。
 - `public/.nojekyll` 阻止 Jekyll 处理以点开头的文件；工作流中也再次写入 `dist/.nojekyll`。
 - 所有资源引用通过 `asset()` 辅助函数拼接 `import.meta.env.BASE_URL`，因此支持子路径部署。
