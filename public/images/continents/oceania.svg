@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" role="img" aria-label="大洋洲轮廓示意图">
+  <title>大洋洲轮廓示意图</title>
+  <rect width="600" height="380" fill="#EDE9DD"/>
+  <line x1="0" y1="95" x2="600" y2="95" stroke="#31594D" stroke-opacity="0.1"/>
+  <line x1="0" y1="190" x2="600" y2="190" stroke="#31594D" stroke-opacity="0.1"/>
+  <line x1="0" y1="285" x2="600" y2="285" stroke="#31594D" stroke-opacity="0.1"/>
+  <path d="M134.3,171.8 L142.5,230.0 L175.7,266.4 L233.7,251.9 L291.7,244.6 L341.4,266.4 L399.4,288.3 L440.9,281.0 L465.7,215.5 L457.5,186.4 L407.7,150.0 L374.6,91.7 L324.9,99.0 L275.1,91.7 L233.7,113.6 L192.3,157.2 Z" fill="#C7D2C2" stroke="#31594D" stroke-width="2" stroke-linejoin="round"/>
+  <g font-family="'Noto Serif CJK SC','SimSun',serif" fill="#14283C">
+    <text x="28" y="52" font-size="26" letter-spacing="4">大洋洲</text>
+    <text x="30" y="76" font-family="sans-serif" font-size="12" letter-spacing="3" fill="#89918E">OCEANIA</text>
+  </g>
+  <path d="M28,350 L120,350" stroke="#D8C8A8" stroke-width="3"/>
+</svg>

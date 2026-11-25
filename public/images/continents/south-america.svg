@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" role="img" aria-label="南美洲轮廓示意图">
+  <title>南美洲轮廓示意图</title>
+  <rect width="600" height="380" fill="#EDE9DD"/>
+  <line x1="0" y1="95" x2="600" y2="95" stroke="#31594D" stroke-opacity="0.1"/>
+  <line x1="0" y1="190" x2="600" y2="190" stroke="#31594D" stroke-opacity="0.1"/>
+  <line x1="0" y1="285" x2="600" y2="285" stroke="#31594D" stroke-opacity="0.1"/>
+  <path d="M131.6,60.2 L192.9,51.9 L269.4,60.2 L345.9,80.8 L361.2,101.4 L407.1,109.6 L453.1,126.1 L476.0,134.4 L445.4,163.2 L437.8,192.1 L376.5,204.4 L338.3,241.5 L307.7,258.0 L269.4,274.5 L246.4,307.5 L208.2,328.1 L169.9,307.5 L185.2,274.5 L192.9,225.0 L208.2,183.8 L169.9,142.6 L131.6,122.0 L124.0,93.1 Z" fill="#C7D2C2" stroke="#31594D" stroke-width="2" stroke-linejoin="round"/>
+  <g font-family="'Noto Serif CJK SC','SimSun',serif" fill="#14283C">
+    <text x="28" y="52" font-size="26" letter-spacing="4">南美洲</text>
+    <text x="30" y="76" font-family="sans-serif" font-size="12" letter-spacing="3" fill="#89918E">SOUTH AMERICA</text>
+  </g>
+  <path d="M28,350 L120,350" stroke="#D8C8A8" stroke-width="3"/>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" role="img" aria-label="北美洲轮廓示意图">
+  <title>北美洲轮廓示意图</title>
+  <rect width="600" height="380" fill="#EDE9DD"/>
+  <line x1="0" y1="95" x2="600" y2="95" stroke="#31594D" stroke-opacity="0.1"/>
+  <line x1="0" y1="190" x2="600" y2="190" stroke="#31594D" stroke-opacity="0.1"/>
+  <line x1="0" y1="285" x2="600" y2="285" stroke="#31594D" stroke-opacity="0.1"/>
+  <path d="M51.0,83.9 L85.0,63.7 L170.0,63.7 L233.7,63.7 L297.5,73.8 L361.2,73.8 L403.7,63.7 L446.2,73.8 L488.7,114.2 L531.2,154.6 L509.9,179.9 L467.4,190.0 L446.2,215.3 L424.9,265.8 L416.4,291.1 L382.4,270.9 L361.2,291.1 L352.7,316.3 L318.7,316.3 L297.5,296.1 L276.2,265.8 L255.0,245.6 L233.7,205.2 L233.7,164.7 L191.2,124.3 L127.5,114.2 Z" fill="#C7D2C2" stroke="#31594D" stroke-width="2" stroke-linejoin="round"/>
+  <g font-family="'Noto Serif CJK SC','SimSun',serif" fill="#14283C">
+    <text x="28" y="52" font-size="26" letter-spacing="4">北美洲</text>
+    <text x="30" y="76" font-family="sans-serif" font-size="12" letter-spacing="3" fill="#89918E">NORTH AMERICA</text>
+  </g>
+  <path d="M28,350 L120,350" stroke="#D8C8A8" stroke-width="3"/>
+</svg>

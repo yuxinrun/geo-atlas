@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" role="img" aria-label="非洲轮廓示意图">
+  <title>非洲轮廓示意图</title>
+  <rect width="600" height="380" fill="#EDE9DD"/>
+  <line x1="0" y1="95" x2="600" y2="95" stroke="#31594D" stroke-opacity="0.1"/>
+  <line x1="0" y1="190" x2="600" y2="190" stroke="#31594D" stroke-opacity="0.1"/>
+  <line x1="0" y1="285" x2="600" y2="285" stroke="#31594D" stroke-opacity="0.1"/>
+  <path d="M96.8,135.3 L102.8,115.7 L138.6,92.3 L168.5,68.8 L198.4,53.2 L258.2,49.3 L317.9,68.8 L347.8,68.8 L389.6,72.7 L407.6,84.4 L425.5,107.9 L455.4,147.0 L503.2,147.0 L485.3,174.4 L449.4,197.8 L437.5,233.0 L407.6,272.1 L389.6,295.6 L359.8,326.8 L317.9,330.7 L306.0,311.2 L270.1,264.3 L252.2,213.5 L252.2,178.3 L216.3,170.5 L168.5,174.4 L138.6,170.5 Z" fill="#C7D2C2" stroke="#31594D" stroke-width="2" stroke-linejoin="round"/>
+  <g font-family="'Noto Serif CJK SC','SimSun',serif" fill="#14283C">
+    <text x="28" y="52" font-size="26" letter-spacing="4">非洲</text>
+    <text x="30" y="76" font-family="sans-serif" font-size="12" letter-spacing="3" fill="#89918E">AFRICA</text>
+  </g>
+  <path d="M28,350 L120,350" stroke="#D8C8A8" stroke-width="3"/>
+</svg>

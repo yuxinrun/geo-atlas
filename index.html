@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#14283C" />
+    <meta name="description" content="世界地理志 GeoAtlas：以大地理观理解地球、中国与世界。自然地理、人文地理、经济地理与地图图鉴的深度中文知识网站。" />
+    <meta name="keywords" content="世界地理,地理知识,中国地理,自然地理,人文地理,地图,地理图鉴,GeoAtlas" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="世界地理志 GeoAtlas" />
+    <meta property="og:title" content="世界地理志 GeoAtlas — 从大地出发，理解世界" />
+    <meta property="og:description" content="以全球视角与空间关系为核心，系统理解地球、中国与世界的中文地理知识网站。" />
+    <meta property="og:image" content="./images/hero/hero-world.svg" />
+    <link rel="icon" type="image/svg+xml" href="./icons/logo.svg" />
+    <link rel="canonical" href="https://yuxinrun.github.io/geo-atlas/" />
+    <title>世界地理志 GeoAtlas — 从大地出发，理解世界</title>
+    <script>
+      (function () {
+        var redirect = sessionStorage.getItem('geo-atlas-redirect')
+        if (redirect) {
+          sessionStorage.removeItem('geo-atlas-redirect')
+          history.replaceState(null, '', redirect)
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
